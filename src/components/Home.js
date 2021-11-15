@@ -5,7 +5,7 @@ import { addItems, deleteItems, removeItems } from '../actions/index';
 const Home = () => {
 
     const [inputData, setInputData] = useState();
-    console.log(inputData)
+    //console.log(inputData)
 
     const dispatch = useDispatch();
     const List = useSelector((state)=>state.listReducer.list);
